@@ -13,5 +13,75 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{6dbf445f-dd4b-4c3e-921f-729849dbf1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsl">
+      <UniqueIdentifier>{d6659765-50e0-4245-9795-b5d5613d3f8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="bsl\File.cpp">
+      <Filter>bsl</Filter>
+    </ClCompile>
+    <ClCompile Include="bsl\Log.cpp">
+      <Filter>bsl</Filter>
+    </ClCompile>
+    <ClCompile Include="bsl\String.cpp">
+      <Filter>bsl</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\miniaudio.c">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="Msick.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="third_party\olcPixelGameEngine.h">
+      <Filter>third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="bsl\Exceptions.hpp">
+      <Filter>bsl</Filter>
+    </ClInclude>
+    <ClInclude Include="bsl\File.hpp">
+      <Filter>bsl</Filter>
+    </ClInclude>
+    <ClInclude Include="bsl\Log.hpp">
+      <Filter>bsl</Filter>
+    </ClInclude>
+    <ClInclude Include="bsl\Macros.hpp">
+      <Filter>bsl</Filter>
+    </ClInclude>
+    <ClInclude Include="bsl\Object.hpp">
+      <Filter>bsl</Filter>
+    </ClInclude>
+    <ClInclude Include="bsl\String.hpp">
+      <Filter>bsl</Filter>
+    </ClInclude>
+    <ClInclude Include="bsl\Vector.hpp">
+      <Filter>bsl</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\miniaudio.h">
+      <Filter>third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="Msick.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
   </ItemGroup>
 </Project>
